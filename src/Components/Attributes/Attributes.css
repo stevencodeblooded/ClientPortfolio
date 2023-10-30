@@ -1,0 +1,28 @@
+.attributes {
+    margin-bottom: 100px;
+}
+
+.attributes > h2 {
+    color: #05a081;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.flex-features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.unique-features {
+    margin-left: 40px;
+}
+
+.unique-features > li {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.unique-features > li::marker {
+    color: #05a081;
+}

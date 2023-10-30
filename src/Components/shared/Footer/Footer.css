@@ -1,0 +1,16 @@
+.footer {
+    position: sticky;
+    top: 100%;
+    background-color: #05a081;
+    padding-inline: 10%;
+    padding-block: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 1.4px;
+}

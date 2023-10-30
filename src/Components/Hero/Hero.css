@@ -1,0 +1,72 @@
+.container {
+    padding-inline: 10%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 100px;
+}
+
+.intro-text {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.brief-data > h2 {
+    font-size: 3rem;
+    color: #05a081;
+    margin-bottom: 30px;
+}
+
+.profile {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+
+.welcome-text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact-hero {
+    display: flex;
+    align-items: center;
+}
+
+.contact-link {
+    text-decoration: none;
+    background-color: #05a081;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s ease-in-out all;
+    margin-right: 40px;
+} 
+
+.contact-link:hover {
+    color: #FFD700;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+}
+
+.icons {
+    color: #05a081;
+    transition: .3s ease-in-out all;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.icons:hover {
+    color: #FFD700;
+}
