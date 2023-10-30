@@ -22,3 +22,24 @@
     font-weight: 500;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1300px) {
+    .holding-camera {
+        width: 400px;
+        height: 400px;
+        border-radius: 10px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+    }
+
+    .about-description h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+}

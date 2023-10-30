@@ -70,3 +70,24 @@
 .icons:hover {
     color: #FFD700;
 }
+
+@media screen and (max-width: 1000px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .brief-data {
+        margin-bottom: 50px;
+    }
+
+    .profile {
+        margin-inline: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+        width: 400px;
+        height: 400px;
+    }
+}

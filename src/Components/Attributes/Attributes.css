@@ -26,3 +26,9 @@
 .unique-features > li::marker {
     color: #05a081;
 }
+
+@media screen and (max-width: 760px) {
+    .flex-features {
+        flex-direction: column;
+    }
+}

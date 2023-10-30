@@ -38,3 +38,61 @@
 .nav-items > li > a:hover {
     color: #FFD700;
 }
+
+.mobile-view {
+    display: none;
+}
+
+.mobile-nav-items {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-items {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .menu-icon {
+        color: #F5F5DC;
+        font-size: 30px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: .3s ease-in-out all;
+    }
+
+    .menu-icon:hover {
+        color: #FFD700;
+    }
+
+    .mobile-nav-items {
+        position: absolute;
+        display: block;
+        list-style: none;
+        margin-top: 80px;
+        background-color: #05a081;
+        width: 80%;
+        padding-block: 30px;
+        border-radius: 10px;
+    }
+
+    .mobile-nav-items > li {
+        margin-block: 30px;
+    }
+
+    .mobile-nav-items > li > a {
+        text-decoration: none;
+        margin-inline: 30px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #F5F5DC;
+        transition: .3s ease-in-out all;
+    }
+
+    .mobile-nav-items > li > a:hover {
+        color: #FFD700;
+    }
+}
