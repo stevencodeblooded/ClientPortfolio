@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faClose, faEnvelopeCircleCheck, faHouse, faPerson, faPhotoFilm, faSignature } from '@fortawesome/free-solid-svg-icons'
 import './Nav.css'
 
 const Nav = () => {
@@ -20,23 +20,23 @@ const Nav = () => {
 
       <ul className={showItems ? 'mobile-nav-items' : 'nav-items'}>
         <li>
-          <a href="#Home">Home</a>
+          <a href="#Home"><FontAwesomeIcon icon={faHouse} className='inline-nav-icon' /> Home</a>
         </li>
 
         <li>
-          <a href="#About">About Me</a>
+          <a href="#About"><FontAwesomeIcon icon={faPerson} className='inline-nav-icon' /> About Me</a>
         </li>
 
         <li>
-          <a href="#Signature">Signature </a>
+          <a href="#Signature"><FontAwesomeIcon icon={faSignature} className='inline-nav-icon' /> Signature </a>
         </li>
 
         <li>
-          <a href="#Photos">Photos</a>
+          <a href="#Photos"><FontAwesomeIcon icon={faPhotoFilm} className='inline-nav-icon' /> Photos</a>
         </li>
 
         <li>
-          <a href="#Contact">Contact</a>
+          <a href="#Contact"><FontAwesomeIcon icon={faEnvelopeCircleCheck} className='inline-nav-icon' /> Contact</a>
         </li>
       </ul>
 

@@ -1,10 +1,12 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCopyright } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css'
 
 const Footer = () => {
   const year = new Date().getFullYear()
   return (
     <div className='footer'>
-      <p>&#169; Clinton - photographer @{year}</p>
+      <p><FontAwesomeIcon icon={faCopyright} className='copyright-icon' /> Clinton - photographer @{year}</p>
     </div>
   )
 }
