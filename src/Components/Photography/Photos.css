@@ -4,7 +4,8 @@
 }
 
 .photos-container {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    padding-block: 50px;
 }
 
 .photos-container > h2 {

@@ -8,35 +8,38 @@ const Nav = () => {
 
   const [ showItems, setShowItems ] = useState(false)
 
-  const toggleHandle = () => {
-    setShowItems(!showItems)
+  const toggleHandle = () => setShowItems(!showItems)
+  const hideMobileNav  = () => {
+    if (showItems) {
+      setShowItems(!showItems)
+    }
   }
   
   return (
-    <nav className='nav-container'>
+    <nav className='nav-container' data-aos='fade-down' data-aos-duration='1500'>
       <h3>
         <a href="#Home">Clinton</a>
       </h3>
 
-      <ul className={showItems ? 'mobile-nav-items' : 'nav-items'}>
+      <ul className={showItems ? `mobile-nav-items` : 'nav-items'} >
         <li>
-          <a href="#Home"><FontAwesomeIcon icon={faHouse} className='inline-nav-icon' /> Home</a>
+          <a href="#Home" onClick={ hideMobileNav }><FontAwesomeIcon icon={faHouse} className='inline-nav-icon' /> Home</a>
         </li>
 
         <li>
-          <a href="#About"><FontAwesomeIcon icon={faPerson} className='inline-nav-icon' /> About Me</a>
+          <a href="#About" onClick={ hideMobileNav }><FontAwesomeIcon icon={faPerson} className='inline-nav-icon' /> About Me</a>
         </li>
 
         <li>
-          <a href="#Signature"><FontAwesomeIcon icon={faSignature} className='inline-nav-icon' /> Signature </a>
+          <a href="#Signature" onClick={ hideMobileNav }><FontAwesomeIcon icon={faSignature} className='inline-nav-icon' /> Signature </a>
         </li>
 
         <li>
-          <a href="#Photos"><FontAwesomeIcon icon={faPhotoFilm} className='inline-nav-icon' /> Photos</a>
+          <a href="#Photos" onClick={ hideMobileNav }><FontAwesomeIcon icon={faPhotoFilm} className='inline-nav-icon' /> Photos</a>
         </li>
 
         <li>
-          <a href="#Contact"><FontAwesomeIcon icon={faEnvelopeCircleCheck} className='inline-nav-icon' /> Contact</a>
+          <a href="#Contact" onClick={ hideMobileNav }><FontAwesomeIcon icon={faEnvelopeCircleCheck} className='inline-nav-icon' /> Contact</a>
         </li>
       </ul>
 

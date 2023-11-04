@@ -1,5 +1,6 @@
 .attributes {
-    margin-bottom: 100px;
+    margin-block: 50px;
+    padding-block: 50px;
 }
 
 .attributes > h2 {

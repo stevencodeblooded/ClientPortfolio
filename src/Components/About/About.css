@@ -1,7 +1,8 @@
 .about-me {
-    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+    margin-block: 50px;
+    padding-block: 50px;
 }
 
 .holding-camera {

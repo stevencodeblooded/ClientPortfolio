@@ -1,8 +1,12 @@
+.something {
+    margin-bottom: 50px;
+    padding-block: 50px;
+}
+
 .contact {
     padding: 80px;
     border: none;
     border-radius: 7px;
-    margin-bottom: 100px;
     background-color: #1ac3a5;
     display: flex;
     justify-content: space-between;

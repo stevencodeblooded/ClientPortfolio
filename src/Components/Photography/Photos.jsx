@@ -9,15 +9,15 @@ const Photos = () => {
     <div className='container'>
       <div className='centered' id='Photos'>
         <div className='photos-container'>
-          <h2>Captured Moments...</h2>
+          <h2 data-aos='fade-down' data-aos-duration='3000'>Captured Moments...</h2>
           <div className='photos'>
-            <img src={photo1} alt="captured" className='captured-photo-1' />
+            <img src={photo1} alt="captured" className='captured-photo-1' data-aos='zoom-in-up' data-aos-duration='2000'/>
             <div className='photos-on-right'>
               <div className='upper'>
-                <img src={photo2} alt="captured" className='captured-photo-2' />
-                <img src={photo3} alt="captured" className='captured-photo-3' />
+                <img src={photo2} alt="captured" className='captured-photo-2' data-aos='zoom-in-up' data-aos-duration='4000' />
+                <img src={photo3} alt="captured" className='captured-photo-3' data-aos='zoom-in-up' data-aos-duration='6000'/>
               </div>
-              <img src={photo4} alt="captured" className='captured-photo-4' />
+              <img src={photo4} alt="captured" className='captured-photo-4' data-aos='zoom-in-up' data-aos-duration='8000'/>
             </div>
           </div>
         </div>

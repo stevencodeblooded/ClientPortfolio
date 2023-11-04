@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className='container'>
       <div className='flex' id='Home'>
-        <div className='brief-data'>
+        <div className='brief-data' data-aos='fade-right' data-aos-duration='1500'>
           <p className='intro-text'>HI, I AM <span>CLINTON</span></p>
           <h2>Professional <br /> Photographer based <br />in Nairobi, Kenya</h2>
           <p className='welcome-text'>Welcome to a world of captivating moments captured through the lens of passion.</p>
@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='profile-image'>
+        <div className='profile-image' data-aos='zoom-in' data-aos-duration='1500'>
           <img src={profileImage} alt="Clinton Odhiambo" className='profile' />
         </div>
       </div>
